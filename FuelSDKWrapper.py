@@ -50,6 +50,10 @@ class ObjectType:
     OPEN_EVENT = 'ET_OpenEvent'
     SENT_EVENT = 'ET_SentEvent'
     UNSUB_EVENT = 'ET_UnsubEvent'
+    
+    # Custom
+    ACTIVITY = 'Activity'
+    PROGRAM = 'Program'
 
     # Non FuelSDK
     AUTOMATION = 'Automation'
