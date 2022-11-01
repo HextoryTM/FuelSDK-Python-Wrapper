@@ -5,15 +5,15 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 setup(
     version='1.3.4',
-    name='FuelSDKWrapper',
+    name='FuelSDKWrapper_C',
     description='Simplify and enhance the FuelSDK for Salesforce Marketing Cloud (ExactTarget)',
     long_description=readme,
     long_description_content_type="text/markdown",
     author='Seb Angel',
     author_email='seb.angel.force@gmail.com',
-    py_modules=['FuelSDKWrapper'],
+    py_modules=['FuelSDKWrapper_C'],
     packages=[],
-    url='https://github.com/seb-angel/FuelSDK-Python-Wrapper',
+    url='https://github.com/HextoryTM/FuelSDK-Python-Wrapper',
     license='MIT',
     install_requires=[
         'Salesforce-FuelSDK>=1.3.0',
