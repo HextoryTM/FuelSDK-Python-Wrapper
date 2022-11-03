@@ -52,8 +52,7 @@ class ObjectType:
     UNSUB_EVENT = 'ET_UnsubEvent'
     
     # Custom
-    ACTIVITY = 'Activity'
-    PROGRAM = 'Program'
+    AUTOMATION_INSTANCE = 'AutomationInstance'
 
     # Non FuelSDK
     AUTOMATION = 'Automation'
